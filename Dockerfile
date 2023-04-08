@@ -1,4 +1,4 @@
-FROM python:3.5-alpine
+FROM python:3.10.10-alpine
 LABEL maintainer="Mostafa Hussein <mostafa.hussein91@gmail.com>"
 RUN apk add --no-cache gcc musl-dev libxml2-dev libxslt-dev nmap openssl
 RUN pip install raccoon-scanner
